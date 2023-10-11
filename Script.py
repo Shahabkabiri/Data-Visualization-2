@@ -4,14 +4,13 @@ import pickle
 import matplotlib.pyplot as plt
 import keras
 
-folder_path = r'C:\Users\Shahab Kabiri\Dropbox\ThesisData\LSTMLogFiles'
+folder_path = r'LSTMLogFiles'
 output_file = 'history_data.xlsx'
 output_path = os.path.join(folder_path, output_file)
-combined_image_path = r'C:\Users\Shahab Kabiri\Dropbox\ThesisData\LSTMLogFiles\combined_charts.png'
-text_file_path = r'C:\Users\Shahab Kabiri\Dropbox\ThesisData\LSTMLogFiles\Results.txt'  # Specify the path to your text file
+combined_image_path = r'Combined_charts.png'
+text_file_path = r'Results.txt'  # Specify the path to your text file
 
 
-r'C:\Users\Shahab Kabiri\Dropbox\ThesisData\LSTMLogFiles\3.history'
 
 
 data = {}
